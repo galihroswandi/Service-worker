@@ -1,7 +1,7 @@
 {
   "name": "PWA Service Worker",
   "description": "Implementasi Service Worker",
-  "start_url": "/",
+  "start_url": "/Service-worker/",
   "lang": "en-US",
   "theme_color": "#6366f1",
   "display": "standalone",
