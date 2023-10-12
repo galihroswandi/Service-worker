@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="manifest" href="manifest.json" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="PWA Service Worker" />
+    <meta name="apple-mobile-web-app-title" content="PWA Service Worker" />
+    <meta name="theme-color" content="#6366f1" />
+    <meta name="msapplication-navbutton-color" content="#6366f1" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="msapplication-starturl" content="/" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="icon"
+      type="image/svg"
+      sizes="192x192"
+      href="/src/assets/images/logo.svg"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/svg"
+      sizes="192x192"
+      href="/src/assets/images/logo.svg"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>✨ StarterPack Project ✨</title>
+    <!-- 👇 css code file 👇 -->
+    <link rel="stylesheet" href="./src/style/global.css" />
+  </head>
+  <body>
+    <!-- auto responsive navigation bar -->
+    <nav id="navbar" class="navibar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="https://youtube.com/deaafrizal">Youtube</a>
+      <a href="javascript:void(0);" class="icon" onclick="showMobileNav()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+
+    <!-- 👇 your content here 👇 -->
+    <div class="container">
+      <div class="glowingTitle">🥶 StarterPack Project 🥶</div>
+      <img src="./src/assets/images/logo.svg" width="150" height="150" />
+      <button class="btn" onclick="showPopup('babypack')">Test Function</button>
+    </div>
+
+    <!-- 👇 javascript code file 👇 -->
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
