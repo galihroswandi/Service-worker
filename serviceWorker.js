@@ -3,10 +3,10 @@
  */
 const cache1 = "Learn-Cache0";
 const cacheAssets = [
-  "/",
-  "/src/style/global.css",
-  "/src/js/index.js",
-  "/src/assets/images/logo.svg",
+  "index.html",
+  "src/style/global.css",
+  "src/js/index.js",
+  "src/assets/images/logo.svg",
 ];
 
 /**
